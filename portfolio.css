@@ -8,6 +8,11 @@ body {
   color: #8b5742;
 }
 
+.background {
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/277/973/original/Pastel_Background.jpg");
+  background-attachment: fixed;
+}
+
 ul.nav-bar {
 
   list-style-type: none;
