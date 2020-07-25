@@ -53,11 +53,19 @@ h1 {
   font-style: italic;
   margin: auto;
   color: #8b5742;
+  text-align: left;
+}
+
+h2 {
+  font-style: italic;
+  margin: auto;
+  color: #8b5742;
+  text-align: center;
 }
 
 article {
   font-style: italic;
-  margin: auto;
+  margin: 80px;
   color: #8b5742;
 }
 
