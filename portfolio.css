@@ -9,35 +9,54 @@ body {
 }
 
 .background {
-  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/277/973/original/Pastel_Background.jpg");
+  background-image: url("https://www.xmple.com/wallpaper/pink-grid-white-graph-paper-1920x1080-c2-ffc0cb-ffffff-l2-12-360-a-0-f-20.svg");
   background-attachment: fixed;
 }
 
-ul.nav-bar {
+button {
+  border-radius: 10px;
+  background-color: #ff8888;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 
+button:hover {
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: none;
+  color: #000000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+ul.nav-bar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #ffaaaa;
+  background-color: #ffffff;
   border-style: solid;
-  border-color: #ffffff;
+  border-color: #999999;
+  border-width: 1px
 }
 
-
-
 li.navigationbar {
-
   float: right;
   font-size: 15px;
 }
 
-
-
 li.navigationbar a {
 
   display: block;
-  color: #ffffff;
+  color: #ffaaaa;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -45,17 +64,18 @@ li.navigationbar a {
   font-weight: bold;
 }
 
-
-
 li.navigationbar a:hover {
- 
-  background-color: #ffffff;
-  color: #ffaaaa;
+  background-color: #ffaaaa;
+  color: #ffffff;
 }
+
 
 h1 {
   font-style: italic;
+  font-size: 20px;
   margin: auto;
+    margin-left: 20px;
+    margin-top: 12px;
   color: #8b5742;
   text-align: left;
 }
@@ -71,4 +91,22 @@ article {
   font-style: italic;
   margin: 80px;
   color: #8b5742;
+}
+
+article.card {
+  width: 500px;
+  padding: 20px;
+  border: 1px #777777;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  background-color: #ffffff;
+}
+
+article.container {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;  
 }
