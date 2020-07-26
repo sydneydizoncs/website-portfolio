@@ -27,7 +27,7 @@ button {
 
 button:hover {
   border-radius: 10px;
-  background-color: #ffffff;
+  background-color: #dddddd;
   border: none;
   color: #000000;
   padding: 15px 32px;
@@ -45,7 +45,8 @@ ul.nav-bar {
   background-color: #ffffff;
   border-style: solid;
   border-color: #999999;
-  border-width: 1px
+  border-width: 1px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 li.navigationbar {
@@ -54,7 +55,6 @@ li.navigationbar {
 }
 
 li.navigationbar a {
-
   display: block;
   color: #ffaaaa;
   text-align: center;
@@ -76,7 +76,7 @@ h1 {
   margin: auto;
     margin-left: 20px;
     margin-top: 12px;
-  color: #8b5742;
+  color: #ffaaaa;
   text-align: left;
 }
 
@@ -103,10 +103,8 @@ article.card {
 }
 
 article.container {
-  justify-content: center;
   display: flex;
   flex-direction: row;
-  align-content: center;
-  margin-top: 20px;
-  margin-bottom: 20px;  
+  justify-content: center;
+  align-content: space-around; 
 }
