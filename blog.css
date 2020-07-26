@@ -28,7 +28,7 @@ button {
 
 button:hover {
   border-radius: 10px;
-  background-color: #ffffff;
+  background-color: #dddddd;
   border: none;
   color: #000000;
   padding: 15px 32px;
@@ -47,6 +47,7 @@ ul.nav-bar {
   border-style: solid;
   border-color: #999999;
   border-width: 1px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 li.navigationbar {
